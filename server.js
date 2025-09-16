@@ -5,7 +5,7 @@ const usersRoutes = require('./routes/users');
 const ordersRoutes = require('./routes/orders');
 
 app.use(express.json());
-   
+
 app.use('/api/products', productsRoutes);
 app.use('/api/users', usersRoutes);
 app.use('/api/orders', ordersRoutes);
